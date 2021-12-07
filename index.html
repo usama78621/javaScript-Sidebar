@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar Nav</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id ="toggle-btn"  onclick="openFunction()">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <div  id="menu" class="sidebar">
+        
+  
+            <li>
+                <a class="active" href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Contents</a>
+            </li>
+            <li>
+                <a href="#">Payout</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Logout</a>
+            </li>
+        
+        <button class="close-btn"   onclick="closeFunction()">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
